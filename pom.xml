@@ -37,6 +37,13 @@
 	            <type>pom</type>
 	            <scope>import</scope>
 	        </dependency>
+			<!--Use the latest version from https://search.maven.org/artifact/com.datastax.oss/java-driver-core -->
+			<dependency>
+				<groupId>com.datastax.oss</groupId>
+				<artifactId>java-driver-core</artifactId>
+				<version>4.17.0</version>
+				<type>bundle</type>
+			</dependency>
 	    </dependencies>
 	</dependencyManagement>
 
