@@ -120,12 +120,12 @@
 		<dependency>
 			<groupId>com.datastax.oss</groupId>
 			<artifactId>java-driver-query-builder</artifactId>
-			<version>${cassandra-java-driver.version}</version>
+			<version>4.17</version>
 		</dependency>
 		<dependency>
 			<groupId>com.datastax.oss</groupId>
 			<artifactId>java-driver-mapper-runtime</artifactId>
-			<version>${cassandra-java-driver.version}</version>
+			<version>4.17</version>
 		</dependency>
 		<dependency>
 			<groupId>com.datastax.oss</groupId>
