@@ -8,7 +8,7 @@ public class ConnectDatabase {
    public static void main(String[] args) {
        // Create the CqlSession object:
        try (CqlSession session = CqlSession.builder()
-           .withCloudSecureConnectBundle(Paths.get("/Users/emelia.wilkinson/Driver Testing/java/secure-connect-nonvectortestdb.zip"))
+           .withCloudSecureConnectBundle(Paths.get("/Users/emelia.wilkinson/driver-testing/java/secure-connect-nonvectortestdb.zip"))
            .withAuthCredentials("DAuJHbTyApKuLRuqgroinZZF","cNSum6tHX+17Ygcpyy_Bvo70B-ncxCscqWaywtx+XGF3J-Hy0dEi+h9iQtEmmJD8GQsekaKy7RHkx.gwJlTZsuMxYt-FsU.KD3OvE0Z5G-OhQS7CZH.U.xDMBs_LGhSR")
            .withKeyspace("non_vector")
            .build()) {
